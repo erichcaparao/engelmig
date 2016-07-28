@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "249298122531",
+    "firebase_url": "https://sibac-1376.firebaseio.com",
+    "project_id": "sibac-1376",
+    "storage_bucket": "sibac-1376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249298122531:android:a62f49fc64791899",
+        "android_client_info": {
+          "package_name": "com.sibac.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249298122531-qcghdn0sof2n5hs657o8mfqd25pbv0u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRd7ob8hwED_7XM0ZFBdxMVPJpkQ-R7tQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

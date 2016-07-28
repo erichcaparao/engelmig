@@ -1,0 +1,276 @@
+/* Empty. Add your own CSS if you like */
+*{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+a{
+	color: #FF512F;
+}
+p,input,h1,h2,h3,h4,h5,h6,span{
+	font-family: 'Quicksand', sans-serif !important;
+	color: white !important;
+}
+
+.mui-text-white{
+	color: white;
+}
+.mui-text-bold{
+	font-weight: bold;
+}
+.mui-icon{
+	font-size: 30px;
+}
+.mui-button-icon > .mui-icon{
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+/*Maker Block UI Backgrounds*/
+.mui-bg-primary{background: #C02425;}
+.mui-bg-sunset{background: #FF512F;}
+.mui-bg-aqua{background: #1A2980;}
+.mui-bg-royal{background: #AA076B;}
+.mui-bg-peached{background: #FF512F;}
+.mui-bg-mango{background: #F09819;}
+.mui-bg-redplay{background: #D31027;}
+
+.mui-align-center{text-align: center;}
+
+/*Maker Block UI Gradient Backgrounds*/
+.mui-bg-primary-linear{
+	background: #C02425; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #C02425 , #F0CB35); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #C02425 , #F0CB35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mui-bg-dark-linear{	
+	background: #485563; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mui-bg-aqua-linear{
+	background: #1A2980; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #1A2980 , #26D0CE); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #1A2980 , #26D0CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mui-bg-royal-linear{
+	background: #AA076B; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #AA076B , #61045F); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #AA076B , #61045F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mui-bg-peached-linear{
+	background: #FF512F; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mui-bg-mango-linear{
+	background: #F09819; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #F09819 , #EDDE5D); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #F09819 , #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mui-bg-redplay-linear{
+	background: #D31027; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #D31027 , #EDDE5D); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #D31027 , #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mui-button{
+	width: auto;
+	border-radius: 5px;
+	border: none;
+	height: 48px;
+	width: 50px;
+}
+.mui-button-icon{
+	background-color: rgba(0,0,0,0);
+}
+/*Maker Block UI Float div*/
+.mui-fly-left{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.mui-stick-top-right{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 1;
+}
+.mui-stick-top-right.mui-button-icon{
+	width: auto;
+	height: 35;
+}
+.mui-fly-right.mui-icon{
+}
+
+.mui-bar > .title{
+	font-weight: bold;
+}
+
+/*Maker Block UI Bar Backgrounds*/
+.mui-bar-peached-linear.bar-footer{
+	background: #FF512F; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mui-bar-orange{
+	background: #FF512F;
+}
+.mui-text-orange{
+	color: #FF512F;
+}
+.mui-button-peached{background: #DD2476;}
+.mui-button-peached-alt{background: #FF512F;}
+.mui-bar-primary{background: #C02425;}
+.mui-bar-sunset{background: #FF512F;}
+.mui-bar-aqua{background: #1A2980;}
+.mui-bar-royal{background: #AA076B;}
+.mui-bar-peached{background: #FF512F;}
+.mui-bar-mango{background: #F09819;}
+.mui-bar-redplay{background: #D31027;}
+
+/*Maker Block UI Bar Alternative Backgrounds*/
+.mui-bar-primary-alt{background: #F0CB35;}
+.mui-bar-sunset-alt{background: #F09819;}
+.mui-bar-sunset-alt.bar-footer{
+	background: #F09819;
+	border-top: 1px solid rgba(255,81,47,0.2);
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+.mui-bar-sunset-alt.bar-header{
+	background: #F09819;
+	border-bottom: 1px solid rgba(255,81,47,0.2);
+	color: white;
+}
+.mui-bar-aqua-alt{background: #1A2980;}
+.mui-bar-royal-alt{background: #AA076B;}
+.mui-bar-peached-alt{
+	background: #DD2476;
+	border-top: 1px solid white
+}
+.mui-bar-mango-alt{background: #EDDE5D;}
+.mui-bar-redplay-alt{background: #EDDE5D;}
+
+.mui-bar-title{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mui-block-center{
+	margin: auto;
+	display: block;
+}
+
+.mui-forms{
+
+}
+.mui-forms > .list{background-color: rgba(0,0,0,0);}
+.mui-forms > .list > .mui-form{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+.mui-form > .list{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+.mui-form input{
+	height: 40px;
+}
+.mui-form > .form-terms{
+	text-align: center;
+	font-size: 15px;
+	padding: 4px;
+	margin-top: -5px;
+}
+.mui-form-keypal.mui-form{
+	position: absolute;
+	bottom: 10%;
+	top: 5%;
+	width: 95%;
+}
+.mui-form-keypal.mui-form > .header{
+	height: 40%;
+}
+.mui-form-keypal.mui-form > .header > .logo{
+	height: 50%;
+}
+.mui-form-keypal.mui-form > .header > .title{
+	position: relative;
+	top: 5%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 150%;
+}
+.mui-form-title{
+	text-align: center;
+	border-bottom: 1px solid white;
+	height: 45px;
+}
+.mui-forms > .list > .mui-login-form input{
+	height: 40px;
+}
+
+.mui-form-pal > .mui-form-header{
+	height: 50%;
+}
+.mui-form-pal > .mui-form-header > .mui-form-logo{
+	height: 50%;
+	width: auto;
+	object-fit: contain;
+}
+.mui-form-pal > .mui-form-header > h2{
+	position: relative;
+	top: 10%;
+	text-align: center;
+}
+
+.mui-button-orange{
+	border-color: #FF512F;
+    background-color: #FF512F;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.mui-button-orange.active, .mui-button-orange.activated{
+	border-color: #E64A19;
+    background-color: #E64A19;
+    color: white;
+}
+.mui-button-orange:hover{
+    color: white;
+}
+.registration-button{
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+}
+.login-item{
+	padding: 8px;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+.login-item:first-child{
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+}
+.bar-trans{
+	background-color: rgba(0,0,0,0);
+	border: 1px solid rgba(0,0,0,0);
+}
+.bar-login{
+	border-top: 1px solid rgba(192,36,37, 0.2);
+	background-color: #F0CB35;
+}
+.button-trans{
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+.mui-form-pal{
+	position: absolute;
+	bottom: 40%;
+	top: 5%;
+	width: 95%;
+}

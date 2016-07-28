@@ -1,0 +1,41 @@
+<ion-view class="mui-bg-dark-linear">
+	<mui-icon type="material" icon="close" position="top-right" ng-click="modalLoginSignUp.hide()"></mui-icon>
+	<ion-content overflow-scroll="false">
+		<div class="row">
+			<div class="col">
+				<h2 class="mui-align-center mui-text-white">
+					Novo Usuário
+				</h2>
+				<div class="mui-form">
+					<div class="list">
+						<div class="mui-item item-input">
+							<input type="text" placeholder="Usuario" ng-model="regUser.username" ng-change="validate.username(regUser)"></input>
+							<mui-icon type="input" status="valid" ng-show="regUsernameIsValid"></mui-icon>
+							<mui-icon type="input" status="!valid" ng-show="!regUsernameIsValid"></mui-icon>
+						</div>
+						<div class="mui-item item-input">
+							<input type="text" placeholder="Email" ng-model="regUser.email" ng-change="validate.email(regUser)"></input>
+							<mui-icon type="input" status="valid" ng-show="regEmailIsValid"></mui-icon>
+							<mui-icon type="input" status="!valid" ng-show="!regEmailIsValid"></mui-icon>
+						</div>
+						<div class="mui-item item-input">
+							<input type="password" placeholder="Senha" ng-model="regUser.pass" ng-change="validate.password(regUser)"></input>
+							<mui-icon type="input" status="valid" ng-show="regPassIsValid"></mui-icon>
+							<mui-icon type="input" status="!valid" ng-show="!regPassIsValid"></mui-icon>
+						</div>
+						<div class="mui-item item-input">
+							<input type="password" placeholder="Confirmar Senha" ng-model="regUser.confirmPass" ng-change="validate.password(regUser)">Confirmar Senha</input>
+							<mui-icon type="input" status="valid" ng-show="regConfirmPassIsValid"></mui-icon>
+						</div>
+					</div>
+					<div class="form-terms">
+						Clique em "Cadastrar" <a ng-click="modalLoginTerms.show()" class="mui-text-orange">Termos &amp; Condições</a>
+					</div>
+					<button ng-click="create(regUser)" id="signUpButton" class="button mui-button-orange button-block">
+						Cadastrar
+					</button>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

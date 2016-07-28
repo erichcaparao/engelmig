@@ -1,0 +1,24 @@
+<ion-view class="mui-bg-dark-linear">
+	<button ng-click="modalLoginMenu.hide()" class="mui-button mui-button-icon mui-stick-top-right">
+		<i class="material-icons">close</i>
+	</button>
+		<div class="row">
+			<div class="col">
+				<h2 class="mui-align-center mui-text-white">
+					Reset Password
+				</h2>
+				<div class="mui-form mui-form-keypal">
+					<div class="header">
+					</div>
+					<div class="list">
+						<div class="mui-item item-input">
+							<input ng-model="resetUser.email" type="text" placeholder="Enter your Email"></input>
+						</div>
+					</div>
+					<button ng-click="reset(resetUser)" class="button mui-button-orange button-block">
+						Reset Password
+					</button>
+				</div>
+			</div>
+		</div>
+</ion-view>

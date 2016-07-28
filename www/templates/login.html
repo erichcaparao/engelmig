@@ -1,0 +1,27 @@
+<ion-view title="ENGELMIG" hide-nav-bar="true" id="engelmig" class="engelmig-bg-login">
+    <ion-content padding="true" class="manual-ios-statusbar-padding">
+        <div class="">
+            <img src="img/LtwSfy8RRfiyX8XL5ubA_logo.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <div class="spacer" style="width: 300px; height: 30px;"></div>
+        <form id="engelmig-form2" class="list ">
+            <ion-list id="engelmig-list2" class=" ">
+                <label class="item item-input " id="engelmig-input3" name="_matricula">
+                    <span class="input-label">E-mail</span>
+                    <input type="tel" placeholder="E-mail"  ng-model="logUser.user">
+                </label>
+                <label class="item item-input platform-android .action-sheet .button.activated"  name="senha">
+                    <span class="input-label">Senha</span>
+                    <input type="password" placeholder="Senha" ng-model="logUser.pass" ng-change="validate.login(logUser)">
+                </label>
+            </ion-list>
+            <div class="spacer" style="width: 300px; height: 25px;"></div>
+           
+            <a id="engelmig-sign-in" style="color:#0A0808;" class=" button button-energized  button-block icon-right ion-android-arrow-dropright-circle " ng-show="validate.login(logUser).isValid" ng-click="login(logUser)">Entrar</a>
+
+           
+
+            <a ui-sref="solicitarAcesso" id="engelmig-button3" class=" button button-light  button-block button-clear ">Solicitar acesso a central</a>
+        </form>
+    </ion-content>
+</ion-view>

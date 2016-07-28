@@ -1,0 +1,71 @@
+<ion-view title="001 Base Leitura" id="page5" class=" ">
+    <ion-content padding="true" class="has-header">
+        <h4 id="01BaseLeitura-heading1" style="color:#000000;text-align:center;" class=" ">0001 - Guia de fiscalização de Campo - Base de Leitura</h4>
+        <div class="spacer" style="width: 300px; height: 33px;"></div>
+        <form id="01BaseLeitura-form1" class="list ">
+            <ion-item class="item-divider " id="01BaseLeitura-list-item-divider3">Dados de Inspeção</ion-item>
+            <label class="item item-input " id="01BaseLeitura-input1" name="_campo01_nome">
+                <span class="input-label">Nome</span>
+                <input type="text" placeholder="Responsável pela Base">
+            </label>
+            <label class="item item-input " id="01BaseLeitura-input2" name="_campo01_fiscalizacao">
+                <span class="input-label">Nº de Fiscalização</span>
+                <input type="tel" placeholder="001">
+            </label>
+            <label class="item item-select " id="01BaseLeitura-select2" name="_campo01_uen">
+                <span class="input-label">UEN</span>
+                <select>
+                    <option>34</option>
+                    <option>35</option>
+                    <option>50</option>
+                    <option>604</option>
+                </select>
+            </label>
+            <label class="item item-input " id="01BaseLeitura-input8" name="_campo01_localidade">
+                <span class="input-label">Localidade:</span>
+                <input type="text" placeholder="Córrego do Fundao">
+            </label>
+            <ion-item class="item-divider " id="01BaseLeitura-list-item-divider4">ITENS DE VERIFICAÇÃO</ion-item>
+            <label class="item item-input" name="_campo01_pesquisa">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="Pesquisa no questionário">
+            </label>
+            <div class="item item-body " id="01BaseLeitura-list-item-container1">
+                <p id="01BaseLeitura-markdown1" style="margin-top:0px;color:#000000;" class=" ">1) As condições de infraestrutura, localização e higiene das instalações estão adequadas?</p>
+                <form id="01BaseLeitura-form5" class="list ">
+                    <ion-toggle toggle-class="toggle-positive" id="01BaseLeitura-toggle5" name="_campo01_1a" class=" ">Não conforme / Conforme</ion-toggle>
+                    <ion-checkbox name="_campo01_1b">Não se aplica</ion-checkbox>
+                </form>
+            </div>
+            <div class="item item-body " id="01BaseLeitura-list-item-container2">
+                <p id="01BaseLeitura-markdown2" style="margin-top:0px;color:#000000;" class=" ">2) A equipe está devidamente identificada?</p>
+                <form id="01BaseLeitura-form4" class="list ">
+                    <ion-toggle toggle-class="toggle-positive" id="01BaseLeitura-toggle3" name="_campo01_2a" class=" ">Não Conforme / Conforme</ion-toggle>
+                    <ion-checkbox name="_campo01_2b">Não se Aplica</ion-checkbox>
+                </form>
+            </div>
+            <div class="item item-body " id="01BaseLeitura-list-item-container10">
+                <p id="01BaseLeitura-markdown10" style="margin-top:0px;color:#000000;" class=" ">3) Os sistemas computacionais e internet estão adequados?</p>
+                <form id="01BaseLeitura-form15" class="list ">
+                    <ion-toggle toggle-class="toggle-positive" id="01BaseLeitura-toggle13" name="_campo01_3a" class=" ">Não Conforme / Conforme</ion-toggle>
+                    <ion-checkbox name="_campo01_3b">Não se Aplica</ion-checkbox>
+                </form>
+            </div>
+            <div class="item item-body " id="01BaseLeitura-list-item-container11">
+                <p id="01BaseLeitura-markdown11" style="margin-top:0px;color:#000000;" class=" ">4) Os PDAs e impressoras estão acondicionados em local adequado?</p>
+                <form id="01BaseLeitura-form16" class="list ">
+                    <ion-toggle toggle-class="toggle-positive" id="01BaseLeitura-toggle14" name="_campo01_4a" class=" ">Não Conforme / Conforme</ion-toggle>
+                    <ion-checkbox name="_campo01_4b">Não se Aplica</ion-checkbox>
+                </form>
+            </div>
+            <div class="item item-body " id="01BaseLeitura-list-item-container12">
+                <p id="01BaseLeitura-markdown12" style="margin-top:0px;color:#000000;" class=" ">5) Existem PDAs e impressoras de backup?</p>
+                <form id="01BaseLeitura-form17" class="list ">
+                    <ion-toggle toggle-class="toggle-positive" id="01BaseLeitura-toggle15" name="_campo01_5a" class=" ">Não Conforme / Conforme</ion-toggle>
+                    <ion-checkbox name="_campo01_5b">Não se Aplica</ion-checkbox>
+                </form>
+            </div>
+        </form>
+        <button id="01BaseLeitura-button1" class=" button button-energized  button-block icon-right ion-android-send ">Enviar</button>
+    </ion-content>
+</ion-view>
