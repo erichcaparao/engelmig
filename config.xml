@@ -56,8 +56,6 @@
 <gap:splash gap:platform="android" gap:qualifier="hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
 <gap:splash gap:platform="android" gap:qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
 
-
-
     <icon src="res/icons/android/icon-96-xhdpi.png" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
