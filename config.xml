@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.engelmig.pesquisa" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.phonegap.pesquisa" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ENGELMIG</name>
     <description>
         Engelmig Transmissao e Ditribuicao
     </description>
-    <author email="ericholiveira@gmail.com" href="http://qsit.com.br/">
+    <author email="ericholiveira@gmail.com" href="http://www.engelmig.com.br/">
       Erich Oliveira
     </author>
     <content src="index.html" />

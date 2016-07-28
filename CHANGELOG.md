@@ -1,4 +1,4 @@
-Version 1.0 - released 25 Julho 2016
+Version 1.0 - released 28 Julho 2016
 
 ## Misc
 - Improved and eased build process
